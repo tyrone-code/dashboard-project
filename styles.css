@@ -1,3 +1,12 @@
+body {
+  background-color: rgb(221, 221, 221);
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -7,14 +16,14 @@
 .projects-announcements-flex-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 11px;
 }
 .grid-container h4 {
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-right: 16rem;
 }
 
 .grid-box {
-  border: 1px solid;
   font-size: 20px;
   text-align: center;
   grid-auto-flow: column;
@@ -22,44 +31,79 @@
 #side-bar {
   grid-row-start: 1;
   grid-row-end: 4;
+  background-color: #0ea5e9;
 }
 
+#nav-bar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
 .main-content-container {
   display: inline-grid;
   font-size: 20px;
   text-align: center;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
   margin: 10px;
+  margin-top: -15px;
   grid-auto-flow: row;
-  gap: 20px;
+  gap: 15px;
+  background-color: rgb(221, 221, 221);
+  height: 40rem;
 }
-/* .projects-announcements {
-  display: flex;
-}
-.projects-announcements h2 {
-  display: inline;
-} */
 
 .card {
-  border: 2px dashed rgb(7, 0, 75);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  border-left: 8px solid orange;
+  height: 12rem;
 }
+
+.text-content {
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: left;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.text-content h5 {
+  font-size: 16px;
+}
+
+.text-content p {
+  margin-top: -20px;
+}
+
 #card-span-3-rows {
-  border: 2px dashed orange;
   grid-row-start: 1;
   grid-row-end: 4;
   grid-column-start: 3;
   grid-column-end: 6;
+  background-color: rgb(221, 221, 221);
+  border-left: 0px solid orange;
+  box-shadow: none;
 }
 
 .card-span-3-rows-inner-grid-container-1 {
   display: grid;
+  background-color: aquamarine;
+  gap: 0rem;
 }
 
 .inner-grid-span-outline-1 {
-  border: 2px solid green;
+  font-size: 12px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid grey;
 }
 
 .inner-grid-span-outline-2 {
-  border: 2px solid rgb(17, 0, 255);
+  font-size: 15.5px;
+  background-color: rgb(253, 255, 127);
+}
+
+.card-span-3-rows-inner-grid-container-2 {
+  display: grid;
+  background-color: aquamarine;
+  gap: 0rem;
 }
