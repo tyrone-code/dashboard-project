@@ -24,8 +24,8 @@ body {
 .projects-announcements-flex-container {
   display: flex;
   justify-content: space-between;
-  margin-right: 6.5rem;
-  margin-left: 1.5rem;
+  margin-right: 5.5rem;
+  margin-left: 0.5rem;
 }
 .grid-container h4 {
   margin-left: 1rem;
@@ -43,11 +43,43 @@ body {
   grid-column-start: 1;
   grid-column-end: 1;
   background-color: #0ea5e9;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 6fr;
 }
 
+#side-bar > div {
+  /* border: 2px solid red; */
+}
+
+.side-bar-text {
+  text-align: left;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.dashboard-text {
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  margin-top: 17px;
+  margin-right: 10px;
+}
 #nav-bar {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  display: grid;
+  height: 66px;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-flow: row;
+}
+
+#nav-bar div {
+  border: 2px solid red;
 }
 .main-content-container {
   display: inline-grid;
@@ -75,17 +107,19 @@ body {
   font-size: 16px;
   margin-left: 20px;
   text-align: left;
-  font-weight: 100;
+  font-weight: 200;
   margin-top: 20px;
+  width: 16rem;
 }
 
 .text-content h5 {
   font-size: 20px;
+  font-weight: 900;
 }
 
 .text-content p {
-  margin-top: -20px;
-  font-size: 18px;
+  margin-top: -30px;
+  font-size: 15px;
 }
 
 #card-span-3-rows {
@@ -95,21 +129,24 @@ body {
   grid-column-end: 6;
   border: 10px solid rgb(255, 255, 255);
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
-  border-radius: 5%;
-  width: 14rem;
-  height: 17.9rem;
+  border-radius: 3%;
+  width: 15rem;
+  height: 19.5rem;
   margin: 0px;
 }
 
 .card-span-3-rows-inner-grid-container-1 {
   text-align: left;
   margin-left: 15px;
+  width: 11rem;
+  margin-left: 2rem;
 }
 
 .inner-grid-span-outline-1 {
   font-size: 12px;
   background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(248, 248, 248);
+  border-bottom: 1px solid rgb(214, 214, 214);
+  margin-top: 10px;
 }
 
 .inner-grid-span-outline-1 h5 {
@@ -118,7 +155,7 @@ body {
 .inner-grid-span-outline-1 p {
   font-size: 12px;
   background-color: rgb(255, 255, 255);
-  margin-top: -15px;
+  margin-top: -12px;
 }
 
 .card-span-3-rows-inner-grid-container-2 {
@@ -129,7 +166,7 @@ body {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   border-radius: 5%;
   width: 14rem;
-  height: 19.8rem;
+  height: 20.6rem;
   background-color: white;
   margin-left: -10px;
   border: 10px solid rgb(255, 255, 255);
@@ -171,4 +208,37 @@ body {
 .profile-picture-social-media {
   border-radius: 50%;
   width: 4rem;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg)
+    brightness(102%) contrast(103%);
+}
+
+.filter-text-white {
+  color: white;
+}
+
+.icon-image {
+  width: 1.5rem;
+}
+
+.dashboard-img {
+  width: 4rem;
+}
+
+.card-links {
+  padding-left: 7.3rem;
+  margin-top: 65px;
+  width: 100%;
+}
+
+.card-links img {
+  width: 1.4rem;
+  position: relative;
+  left: 35px;
+}
+
+.card-links span {
+  margin: 8px;
 }
