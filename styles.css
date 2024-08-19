@@ -82,14 +82,13 @@ body {
   border: 2px solid red;
 }
 .main-content-container {
+  margin-left: 2.5rem;
   display: inline-grid;
   font-size: 20px;
   text-align: center;
-  grid-template-columns: 1fr 1fr 2fr;
   grid-auto-flow: row;
   gap: 18px;
   background-color: rgb(226, 226, 226);
-
   margin-bottom: 30px;
 }
 
@@ -98,9 +97,6 @@ body {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   border-radius: 3%;
   border-left: 8px solid orange;
-  height: 14rem;
-  width: 20rem;
-  margin-left: 1.5rem;
 }
 
 .text-content {
@@ -166,7 +162,7 @@ body {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   border-radius: 5%;
   width: 14rem;
-  height: 20.6rem;
+  height: 274px;
   background-color: white;
   margin-left: -10px;
   border: 10px solid rgb(255, 255, 255);
@@ -191,23 +187,87 @@ body {
   font-size: 12px;
 }
 
-.text-social-media h6 {
+.felix h6 {
   padding: 5px;
   font-size: 12px;
   position: relative;
-  top: -14px;
+  top: -20px;
 }
 
-.text-social-media p {
+.felix p {
   padding: 5px;
   position: relative;
-  top: -50px;
+  top: -55px;
+  font-weight: 300;
+}
+
+.morgan h6 {
+  padding: 5px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+}
+
+.morgan p {
+  padding: 5px;
+  position: relative;
+  top: -55px;
+  font-weight: 300;
+}
+
+.Kendall h6 {
+  padding: 5px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+}
+
+.Kendall p {
+  padding: 5px;
+  position: relative;
+  top: -55px;
+  font-weight: 300;
+}
+
+.Alex h6 {
+  padding: 5px;
+  font-size: 12px;
+  position: relative;
+  top: -35px;
+}
+
+.Alex p {
+  padding: 5px;
+  position: relative;
+  top: -70px;
   font-weight: 300;
 }
 
 .profile-picture-social-media {
   border-radius: 50%;
-  width: 4rem;
+  width: 3.2rem;
+}
+
+.profile-picture-social-media-1 {
+  width: 3.2rem;
+  border-radius: 50%;
+  height: 50px;
+}
+
+.profile-picture-social-media-3 {
+  width: 3.2rem;
+  border-radius: 50%;
+  height: 50px;
+  position: relative;
+  top: -5px;
+}
+
+.profile-picture-social-media-4 {
+  width: 3.2rem;
+  border-radius: 50%;
+  height: 50px;
+  position: relative;
+  top: -15px;
 }
 
 .filter-white {
