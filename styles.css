@@ -304,7 +304,8 @@ body {
 .magnify {
   width: 1.5rem;
   position: relative;
-  top: 5px;
+  top: 2px;
+  margin-top: 20px;
 }
 
 .searchbar {
@@ -319,20 +320,77 @@ body {
   margin-left: 10px;
   height: 1.5rem;
   width: 32rem;
+  margin-top: 20px;
 }
 
 .bell {
   width: 1.5rem;
+  position: absolute;
+  right: 352px;
+  top: 20px;
 }
 
 .profile-img {
+  width: 3.5rem;
+  border-radius: 50%;
+  height: 3rem;
+  position: absolute;
+  right: 260px;
+  top: 10px;
+}
+.bell-name-profilepic {
+  position: relative;
+}
+
+.bell-name {
+  position: absolute;
+  right: -45px;
+  top: -1px;
+}
+
+.morgan-oakley-intro {
+  display: flex;
+}
+
+.oakley-intro {
   width: 4.5rem;
   border-radius: 50%;
   height: 4rem;
+  position: relative;
+  left: 35px;
+  top: 25px;
 }
 
-.bell-name-profilepic {
-  display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
+.oakley-intro-text h4 {
+  position: relative;
+  left: 2rem;
+  top: -1.5rem;
+}
+
+.oakley-intro-text h6 {
+  position: relative;
+  right: 7.5rem;
+  top: 0.2rem;
+}
+
+.upload-new-share {
+  height: 2rem;
+  position: relative;
+  top: 2rem;
+  left: -3rem;
+  /* border: 2px solid red; */
+  width: 30rem;
+}
+
+.upload-new-share button {
+  margin: 10px;
+  width: 5.5rem;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: #0ea5e9;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  border: 0px solid;
+  height: 2rem;
 }
